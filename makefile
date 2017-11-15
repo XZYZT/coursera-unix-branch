@@ -8,6 +8,7 @@ README.md: clean
 	echo "The guessinggame.sh containthe following number of entries:" >> README.md
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
 	echo "" >> README.md
-	echo "My name is Sha Quan. I'm from China. Welcome to point out the deficiencies in the code or elsewhere." >> README.md
+	echo "My name is Sha Quan. I'm from China. " >> README.md 
+	echo "My first Mutal assessment homework is there. Welcome to point out the deficiencies in the code or elsewhere." >> README.md
 clean:
 	rm README.md
